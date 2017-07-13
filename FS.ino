@@ -1,4 +1,4 @@
-// Инициализация FFS
+/// Инициализация FFS
 void FS_init(void) {
   SPIFFS.begin();
   {
