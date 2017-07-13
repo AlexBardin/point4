@@ -17,7 +17,7 @@ ESP8266WebServer HTTP;
 
 // Определяем переменные wifi
 String _ssid     = "123"; // Для хранения SSID
-String _password = "Artemka123"; // Для хранения пароля сети
+String _password = "123123123"; // Для хранения пароля сети
 String _ssidAP = "pointWiFi";   // SSID AP точки доступа
 String _passwordAP = ""; // пароль точки доступа
 String SSDP_Name = "point"; // Имя SSDP

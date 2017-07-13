@@ -1,7 +1,7 @@
 //#define PIN1 2
 //#define PIN2 2
 
-#define NUM_LEDS 100
+#define NUM_LEDS 210
 #define BRIGHTNESS 255
 
 // Выводы по микросхемам
@@ -285,175 +285,175 @@ void set_color(byte* line, int n_line) {
                 {
               case 0:    
                 ////Serial.println("test2");
-                out_port(0);
+                //////out_port(0);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip00.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("Out line 0"); 
-                strip00.show();                
+                //strip00.show();                
                 break;
 
               case 1:    
                 ////Serial.println("test2");
-                out_port(1);
+                //out_port(1);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip01.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("Out line 1"); 
-                strip01.show();                
+                //strip01.show();                
                 break;
               
               case 2:    
                 ////Serial.println("test2");
-                out_port(2);
+                //out_port(2);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip02.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("Out line 2"); 
-                strip02.show();                
+                //strip02.show();                
                 break;
 
               case 3:    
                 ////Serial.println("test2");
-                out_port(3);
+                //out_port(3);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip03.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 //////Serial.println("Out line 3"); 
-                strip03.show();                
+                //strip03.show();                
                 break;
 
               case 4:    
                 ////Serial.println("test2");
-                out_port(4);
+                //out_port(4);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip04.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("Out line 4"); 
-                strip04.show();                
+                //strip04.show();                
                 break;
 
               case 5:    
                 ////Serial.println("test2");
-                out_port(5);
+                //out_port(5);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip05.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip05.show();                
+                //strip05.show();                
                 break;
 
               case 6:    
                 ////Serial.println("test2");
-                out_port(6);                
+                //out_port(6);                
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip06.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip06.show();                
+                //strip06.show();                
                 break;
 
               case 7:    
                 ////Serial.println("test2");
-                out_port(7);                
+                //out_port(7);                
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip07.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip07.show();                
+                //strip07.show();                
                 break;
 
               case 8:    
                 ///Serial.println("test2");
-                out_port(0);
+                //out_port(0);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip20.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip20.show();                
+                //strip20.show();                
                 break;
 
               case 9:    
                 ////Serial.println("test2");
-                out_port(1);
+                //out_port(1);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip21.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip21.show();                
+                //strip21.show();                
                 break;
 
               case 10:    
                 ////Serial.println("test2");
-                out_port(2);
+                //out_port(2);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip22.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip22.show();                
+                //strip22.show();                
                 break;
 
               case 11:    
                 ////Serial.println("test2");
-                out_port(3);
+                //out_port(3);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip23.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip23.show();                
+                //strip23.show();                
                 break;
                 
               case 12:    
                 ////Serial.println("test2");
-                out_port(0);
+                //out_port(0);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip10.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip10.show();                
+                //strip10.show();                
                 break;
 
               case 13:    
                 ////Serial.println("test2");
-                out_port(1);
+                //out_port(1);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip11.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip11.show();                
+                //strip11.show();                
                 break;
 
               case 14:    
                 ////Serial.println("test2");
-                out_port(2);
+                //out_port(2);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
@@ -461,132 +461,132 @@ void set_color(byte* line, int n_line) {
                 }
                 ////Serial.println("test3"); 
                   
-                strip12.show();                
+                //strip12.show();                
                 break;
 
               case 15:    
                 ////Serial.println("test2");
-                out_port(3);
+                //out_port(3);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip13.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip13.show();                
+                //strip13.show();                
                 break;
                 
               case 16:    
                 ////Serial.println("test2");
-                out_port(4);
+                //out_port(4);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip14.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip14.show();                
+                //strip14.show();                
                 break;
               
               case 17:    
                 ////Serial.println("test2");
-                out_port(5);
+                //out_port(5);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip15.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip15.show();                
+                //strip15.show();                
                 break;
 
               case 18:    
                 ////Serial.println("test2");
-                out_port(6);
+                //out_port(6);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip16.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip16.show();                
+                //strip16.show();                
                 break;
 
               case 19:    
                 ////Serial.println("test2");
-                out_port(7);
+                //out_port(7);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip17.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip17.show();                
+                //strip17.show();                
                 break;
 
               case 20:    
                 ////Serial.println("test2");
-                out_port(0);
+                //out_port(0);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip30.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip30.show();                
+                //strip30.show();                
                 break;
 
               case 21:    
                 ////Serial.println("test2");
-                out_port(1);
+                //out_port(1);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip31.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip31.show();                
+                //strip31.show();                
                 break;
 
               case 22:    
                 ////Serial.println("test2");
-                out_port(2);
+                //out_port(2);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip32.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip32.show();                
+                //strip32.show();                
                 break;
 
               case 23:    
                 ////Serial.println("test2");
-                out_port(3);
+                //out_port(3);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip33.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip33.show();                
+                //strip33.show();                
                 break;
 
               case 24:    
                 ////Serial.println("test2");
-                out_port(4);
+                //out_port(4);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip34.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip34.show();                
+                //strip34.show();                
                 break;
 
               case 25:    
                 ////Serial.println("test2");
-                out_port(5);
+                //out_port(5);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
@@ -594,24 +594,24 @@ void set_color(byte* line, int n_line) {
                 }
                 ////Serial.println("test3"); 
                   
-                strip35.show();                
+                //strip35.show();                
                 break;
 
               case 26:    
                 ////Serial.println("test2");
-                out_port(6);
+                //out_port(6);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip36.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip36.show();                
+                //strip36.show();                
                 break;
 
               case 27:    
                 ////Serial.println("test2");
-                out_port(7);                
+                //out_port(7);                
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
@@ -619,12 +619,12 @@ void set_color(byte* line, int n_line) {
                 }
                 ////Serial.println("test3"); 
                   
-                strip37.show();                
+                //strip37.show();                
                 break;
 
               case 28:    
                 ////Serial.println("test2");
-                out_port(4);
+                //out_port(4);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
@@ -632,12 +632,12 @@ void set_color(byte* line, int n_line) {
                 }
                 ////Serial.println("test3"); 
                   
-                strip24.show();                
+                //strip24.show();                
                 break;
 
               case 29:    
                 ////Serial.println("test2");
-                out_port(5);
+                //out_port(5);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
@@ -645,12 +645,12 @@ void set_color(byte* line, int n_line) {
                 }
                 ////Serial.println("test3"); 
                   
-                strip25.show();                
+                //strip25.show();                
                 break;
 
               case 30:    
                 ////Serial.println("test2");
-                out_port(6);
+                //out_port(6);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
@@ -658,12 +658,12 @@ void set_color(byte* line, int n_line) {
                 }
                 ////Serial.println("test3"); 
                   
-                strip26.show();                
+                //strip26.show();                
                 break;
 
               case 31:    
                 //Serial.println("test2");
-                out_port(7);
+                //out_port(7);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
@@ -671,48 +671,48 @@ void set_color(byte* line, int n_line) {
                 }
                 ////Serial.println("test3"); 
                   
-                strip27.show();                
+                //strip27.show();                
                 break;
 
               case 32:    
                 ////Serial.println("test2");
-                out_port(0);
+                //out_port(0);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip40.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip40.show();                
+                //strip40.show();                
                 break;
                 
               case 33:    
                 ////Serial.println("test2");
-                out_port(1);
+                //out_port(1);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip41.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip41.show();                
+                //strip41.show();                
                 break;
                 
               case 34:    
                 ////Serial.println("test2");
-                out_port(2);
+                //out_port(2);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip42.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip42.show();                
+                //strip42.show();                
                 break;
                 
               case 35:    
                 ////Serial.println("test2");
-                out_port(3);
+                //out_port(3);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
@@ -720,55 +720,55 @@ void set_color(byte* line, int n_line) {
                 }
                 ////Serial.println("test3"); 
                   
-                strip43.show();                
+                //strip43.show();                
                 break;
                 
               case 36:    
                 ////Serial.println("test2");
-                out_port(4);
+                //out_port(4);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip44.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip44.show();                
+                //strip44.show();                
                 break;
                 
               case 37:    
                 ////Serial.println("test2");
-                out_port(5);
+                //out_port(5);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip45.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip45.show();                
+                //strip45.show();                
                 break;
 
               case 38:    
                 ////Serial.println("test2");
-                out_port(6);
+                //out_port(6);
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip46.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip46.show();                
+                //strip46.show();                
                 break;
                 
               case 39:    
                 ////Serial.println("test2");
-                out_port(7);                
+                //out_port(7);                
                 for(int j = 0; j<led_quality; j++)
                 {
                       // В какой порт писать
                           strip47.setPixelColor(led_addr+j, R_color, G_color, B_color, W_color);
                 }
                 ////Serial.println("test3"); 
-                strip47.show();                
+                //strip47.show();                
                 break;
           
               case 40:    
@@ -780,6 +780,63 @@ void set_color(byte* line, int n_line) {
 
               }
         }
+            
+            
+        out_port(0);
+        strip00.show();
+        strip10.show();
+        strip20.show();
+        strip30.show();
+        strip40.show();
+        
+        out_port(1);
+        strip01.show();
+        strip11.show();
+        strip21.show();
+        strip31.show();
+        strip41.show();
+
+        out_port(2);
+        strip02.show();
+        strip12.show();
+        strip22.show();
+        strip32.show();
+        strip42.show();
+
+        out_port(3);
+        strip03.show();
+        strip13.show();
+        strip23.show();
+        strip33.show();
+        strip43.show();
+
+        out_port(4);
+        strip04.show();
+        strip14.show();
+        strip24.show();
+        strip34.show();
+        strip44.show();
+        
+        out_port(5);
+        strip05.show();
+        strip15.show();
+        strip25.show();
+        strip35.show();
+        strip45.show();
+
+        out_port(6);
+        strip06.show();
+        strip16.show();
+        strip26.show();
+        strip36.show();
+        strip46.show();
+
+        out_port(7);
+        strip07.show();
+        strip17.show();
+        strip27.show();
+        strip37.show();
+        strip47.show();
         
         
  
@@ -804,7 +861,7 @@ void clear_all(void)
                       strip07.setPixelColor(j, 0, 0, 0, 0);
                       strip10.setPixelColor(j, 0, 0, 0, 0);
                       strip11.setPixelColor(j, 0, 0, 0, 0);
-                      strip12.setPixelColor(j, 0, 0, 0, 0);
+                      strip12.setPixelColor(j, 0, 0, 0, 0); 
                       strip13.setPixelColor(j, 0, 0, 0, 0);
                       strip14.setPixelColor(j, 0, 0, 0, 0);
                       strip15.setPixelColor(j, 0, 0, 0, 0);
@@ -835,61 +892,6 @@ void clear_all(void)
                       strip46.setPixelColor(j, 0, 0, 0, 0);
                       strip47.setPixelColor(j, 0, 0, 0, 0);
             }
-            out_port(0);
-            strip00.show();
-            strip10.show();
-            strip20.show();
-            strip30.show();
-            strip40.show();
-            
-            out_port(1);
-            strip01.show();
-            strip11.show();
-            strip21.show();
-            strip31.show();
-            strip41.show();
-
-            out_port(2);
-            strip02.show();
-            strip12.show();
-            strip22.show();
-            strip32.show();
-            strip42.show();
-
-            out_port(3);
-            strip03.show();
-            strip13.show();
-            strip23.show();
-            strip33.show();
-            strip43.show();
-
-            out_port(4);
-            strip04.show();
-            strip14.show();
-            strip24.show();
-            strip34.show();
-            strip44.show();
-            
-            out_port(5);
-            strip05.show();
-            strip15.show();
-            strip25.show();
-            strip35.show();
-            strip45.show();
-
-            out_port(6);
-            strip06.show();
-            strip16.show();
-            strip26.show();
-            strip36.show();
-            strip46.show();
-
-            out_port(7);
-            strip07.show();
-            strip17.show();
-            strip27.show();
-            strip37.show();
-            strip47.show();
 
 }
 
